@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 360px;
+    margin: 0 auto;
+}
+.wrapper{
+    height: 700px;
+    width: 500;
+    background: #000;
+    margin: 15px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.nav{
+    padding: 5px;
+    display: flex;
+}
+.logo img{
+    width: 80px;
+    height: auto;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.cloth{
+    margin-top: -20px;
+}
+.cloth img{
+    width: 300px;
+    margin-left: 20px;
+}
